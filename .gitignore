@@ -21,4 +21,6 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/instructions/design-doc.md
+/instructions/developer-plan.md
 /instructions/*
