@@ -61,32 +61,32 @@ Este documento detalla el plan paso a paso para desarrollar la plataforma de ges
 
 ## Fase 4: Desarrollo de la API para Productos
 
-- [ ] **Tarea 4.1**: Crear el controlador para productos
+- [x] **Tarea 4.1**: Crear el controlador para productos
   ```bash
   php artisan make:controller API/ProductController --api
   ```
-- [ ] **Tarea 4.2**: Implementar método `index()` para listar productos
-- [ ] **Tarea 4.3**: Implementar método `show($id)` para mostrar un producto
-- [ ] **Tarea 4.4**: Implementar método `store(Request $request)` para crear productos
-- [ ] **Tarea 4.5**: Implementar método `update(Request $request, $id)` para actualizar productos
-- [ ] **Tarea 4.6**: Implementar método `destroy($id)` para eliminar productos
-- [ ] **Tarea 4.7**: Configurar las rutas para el controlador de productos en `routes/api.php`
+- [x] **Tarea 4.2**: Implementar método `index()` para listar productos
+- [x] **Tarea 4.3**: Implementar método `show($id)` para mostrar un producto
+- [x] **Tarea 4.4**: Implementar método `store(Request $request)` para crear productos
+- [x] **Tarea 4.5**: Implementar método `update(Request $request, $id)` para actualizar productos
+- [x] **Tarea 4.6**: Implementar método `destroy($id)` para eliminar productos
+- [x] **Tarea 4.7**: Configurar las rutas para el controlador de productos en `routes/api.php`
 
 ## Fase 5: Desarrollo de la API para Pedidos
 
-- [ ] **Tarea 5.1**: Crear el controlador para pedidos
+- [x] **Tarea 5.1**: Crear el controlador para pedidos
   ```bash
   php artisan make:controller API/OrderController --api
   ```
-- [ ] **Tarea 5.2**: Implementar método `index()` para listar pedidos con sus ítems
-- [ ] **Tarea 5.3**: Implementar método `show($id)` para mostrar un pedido con sus ítems y datos de producto
-- [ ] **Tarea 5.4**: Implementar método `store(Request $request)` para crear pedidos
+- [x] **Tarea 5.2**: Implementar método `index()` para listar pedidos con sus ítems
+- [x] **Tarea 5.3**: Implementar método `show($id)` para mostrar un pedido con sus ítems y datos de producto
+- [x] **Tarea 5.4**: Implementar método `store(Request $request)` para crear pedidos
   - Validar datos de entrada
   - Calcular total de pedido basado en precios unitarios y cantidades
   - Crear registro de pedido y sus ítems
-- [ ] **Tarea 5.5**: Implementar método `update(Request $request, $id)` para actualizar estado o dirección
-- [ ] **Tarea 5.6**: Implementar método `destroy($id)` para eliminar pedidos (y sus ítems en cascada)
-- [ ] **Tarea 5.7**: Configurar las rutas para el controlador de pedidos en `routes/api.php`
+- [x] **Tarea 5.5**: Implementar método `update(Request $request, $id)` para actualizar estado o dirección
+- [x] **Tarea 5.6**: Implementar método `destroy($id)` para eliminar pedidos (y sus ítems en cascada)
+- [x] **Tarea 5.7**: Configurar las rutas para el controlador de pedidos en `routes/api.php`
 
 ## Fase 6: Pruebas Manuales de la API
 
